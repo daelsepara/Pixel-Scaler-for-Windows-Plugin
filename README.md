@@ -19,7 +19,7 @@ Actual application of the filter occurs here. Two arguments are passed in this f
 
 * pointer to the input image (in 8-bit RGB format as described above), i.e. __unsigned char* Input__
 * pointer to an integer variable indicating the width of the input, i.e. __int* Width__
-* pointer to an integer variable indicating the height of the input, i.e. __int* Width__
+* pointer to an integer variable indicating the height of the input, i.e. __int* Height__
 
 Beyond the first three parameters, you have absolute freedom on how to process it. In the sample code provided here, the parameter values are read in the following manner:
 
