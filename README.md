@@ -24,9 +24,9 @@ Actual application of the filter occurs here. Two arguments are passed in this f
 Beyond the first three parameters, you have absolute freedom on how to process it. In the sample code provided here, the parameter values are read in the following manner:
 
 ```c
-      auto Input = ((unsigned char*)(argv[0]));
-			auto srcx = *((int*)(argv[1]));
-			auto srcy = *((int*)(argv[2]));
+auto Input = ((unsigned char*)(argv[0]));
+auto srcx = *((int*)(argv[1]));
+auto srcy = *((int*)(argv[2]));
 ```
 Code to process other parameters (__argv[3]__ and beyond) can easily adapted from the above example
 
