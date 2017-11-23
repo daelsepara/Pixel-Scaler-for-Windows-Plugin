@@ -1,5 +1,5 @@
 # Pixel Scaler for Windows Plugin
-How to create a plugin DLL for Pixel Scaler
+How to create a filter plugin DLL for Pixel Scaler
 
 ## Image format
 
